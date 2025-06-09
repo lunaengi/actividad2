@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicWOW</title>
+    <link rel="stylesheet" href="evento.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <h1>ComicWOW</h1>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#about">Sobre el Evento</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#register">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>¡Únete a nosotros para un evento inolvidable!</h2>
+          <p>El evento, organizado por Planet Comics, en asocio con Corferias, ofrece una experiencia completa para los fanáticos de los cómics, la cultura pop y la industria del entretenimiento en un solo lugar.</p>
+        <a href="#register" class="boton">Regístrate Ahora</a>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Lo que dicen nuestros asistentes</h2>
+        <div class="testimonial__carousel">
+          <input type="radio" name="carousel" id="t1" checked>
+          <input type="radio" name="carousel" id="t2" >
+          <input type="radio" name="carousel" id="t3" >
+
+            <div class="testimonial__content">
+                <div class="testimonial">
+                  <p>"Fue una experiencia increíble, aprendí mucho!" - Juan Pérez</p>
+                </div>
+            </div>
+            <div class="testimonial__content">
+            <div class="testimonial">
+                    <p>"Los ponentes eran muy profesionales y el ambiente fue genial." - Ana Gómez</p>
+                </div>
+            </div>
+            <div class="testimonial__content">
+                <div class="testimonial">
+                    <p>"Definitivamente volveré el próximo año." - Luis Martínez</p>
+                </div>
+            </div>
+
+
+            <div class="testimonial__controls">
+              <label for="t1"></label>
+              <label for="t2"></label>
+              <label for="t3"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="formulario">
+        <h2>Formulario de Registro</h2>
+        <form>
+            <div class="formulario__campo">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="formulario__campo">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="formulario__campo">
+                <label for="ticket-type">Tipo de Ticket:</label>
+                <select id="ticket-type" required>
+                    <option value="">Seleccione un tipo</option>
+                    <option value="general">General</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__legal">
+            <p>&copy; 2025 COMICWOW COLOMBIA es organizado por: Planet Comics SAS – NIT:9000011111 y Corporación de Ferias Y Exposiciones S.A. Usuario Operador De Zona Franca Beneficio E Interés Colectivo NIT 8345678890 - 3 //</p>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+        </div>
+        <div class="footer__social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
